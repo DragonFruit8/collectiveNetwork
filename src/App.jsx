@@ -7,7 +7,7 @@ import HomePage from "./pages/HomePage";
 import FamilyGallery from "./pages/FamilyGallery";
 import SubmitPage from "./pages/SubmitPage";
 // import CampaignForm from './forms/CampaignForm'
-import StatusUpdate from "./network/safety/StatusUpdate";
+import StatusUpdate from './Network/safety/StatusUpdate';
 
 function App() {
   return (
