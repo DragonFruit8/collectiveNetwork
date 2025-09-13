@@ -17,8 +17,7 @@ function StatusUpdate() {
     caution: isCaution,
     danger: isDanger,
   });
-
-  console.log(userStatus)
+  
 
   useEffect(() => {
     if (navigator.geolocation) {
@@ -63,6 +62,7 @@ function StatusUpdate() {
       setDanger(false);
       setUserStatus({safe: true, caution: false, danger: false});
     }
+    console.log(userStatus)
   }
 
   return (
